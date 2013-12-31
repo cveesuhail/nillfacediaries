@@ -551,13 +551,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header h3 {
   font-size: 32px;
-  color: #111;
+  color: rgb(226, 226, 226);
   text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   position: relative;
   padding-bottom: 15px;
 }
+
+
 
 .section-header h3::before {
   content: '';
@@ -584,7 +586,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header p {
   text-align: center;
   padding-bottom: 30px;
-  color: #333;
+  color: rgba(255, 253, 253, 0.705);
 }
 
 /* Section with background
@@ -654,7 +656,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   right: 0;
   top: 0;
   bottom: 0;
-  background: rgba(255, 255, 255, 0.664);
+  background: rgba(0, 0, 0, 0.911);
   z-index: 9;
 }
 
@@ -666,7 +668,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about .about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
+  box-shadow: 0px 2px 12px rgba(255, 255, 255, 0.671);
   margin-bottom: 20px;
 }
 
@@ -737,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #services {
-  background: #fff;
+  background: rgb(0, 0, 0);
   background-size: cover;
   padding: 60px 0 40px 0;
 }
@@ -765,7 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .title a {
-  color: #111;
+  color: #18d26e;
 }
 
 #services .box:hover .title a {
@@ -779,17 +781,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 0;
 }
 
-/* Call To Action Section
+/* Call To Action Section                
 --------------------------------*/
 
 #call-to-action {
-  background: linear-gradient(rgba(0, 142, 99, 0.1), rgba(0, 0, 0, 0.753)), url(../img/dddd.jpg) fixed center center;
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.575)), url(../img/dddd.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
 }
 
 #call-to-action-b {
-  background: linear-gradient(rgba(0, 142, 99, 0.397), rgba(255, 255, 255, 0.795)), url(../img/ddd.jpg) fixed center center;
+  background: linear-gradient(rgba(2, 54, 39, 0.89), rgba(0, 0, 0, 0.795)), url(../img/ddd.jpg) fixed center center;
   background-size: cover;
   padding: 60px 0;
   
@@ -910,7 +912,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .basic-1 {
 	padding-top: 6.375rem;
 	padding-bottom: 6.875rem;
-	background: url('../img/video-background.jpg') center center no-repeat;
+	background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.575)), url(../img/dddd.jpg) fixed center center;
 	background-size: cover; 
 }
 
@@ -1279,14 +1281,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #team {
-  background: #fff;
+  background: rgb(0, 0, 0);
   padding: 60px 0;
 }
 
 #team .member {
   text-align: center;
   margin-bottom: 20px;
-  background: #000;
+  background: rgb(136, 135, 135);
   position: relative;
 }
 
@@ -1339,7 +1341,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-style: italic;
   display: block;
   font-size: 13px;
-  color: #fff;
+  color: #18d26e;
 }
 
 #team .member .social {
@@ -1365,6 +1367,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #contact {
   padding: 60px 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.575)), url(../img/dddd.jpg) fixed center center;
 }
 
 #contact .contact-info {
@@ -1382,7 +1385,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #contact .contact-info address,
 #contact .contact-info p {
   margin-bottom: 0;
-  color: #000;
+  color: rgb(216, 216, 216);
 }
 
 #contact .contact-info h3 {
@@ -1390,11 +1393,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 15px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #999;
+  color: #18d26e;
 }
 
 #contact .contact-info a {
-  color: #000;
+  color: rgb(255, 255, 255);
 }
 
 #contact .contact-info a:hover {
@@ -1456,10 +1459,12 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #fff;
   transition: 0.4s;
   cursor: pointer;
+  border-radius: 10px;
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #13a456;
+  background: #003318;
+  border: rgb(255, 255, 255) solid;
 }
 
 /*--------------------------------------------------------------
@@ -1617,6 +1622,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+}
+
+#footer .copyright :hover{
+color: rgb(255, 123, 0);
+
 }
 
 #footer .credits {
